@@ -1,0 +1,92 @@
+@charset "UTF-8";
+@import url('font.css');
+
+:root
+{
+  --dark-black: #000000;
+  --ligth-dark: #413F42;
+  --white: #F5F5F7;
+  --dark-grey: #B4B4B8;
+  --light-grey: #DDDDDD;
+  --typography: 'Roboto Flex';
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+body
+{
+  min-height: 100vh;
+  font-size: 100%;
+  font-family: var(--typography);
+  color: var(--dark-black);
+  background-color: var(--white);
+  line-height: 1.4em;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 20px;
+}
+
+img, figure, figcaption
+{
+  max-width: 100%;
+  width: 100%;
+  display: block;
+}
+
+svg
+{
+  width: 100%;
+  display: block;
+  fill: currentColor;
+}
+
+a
+{
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit;
+}
+
+p a
+{
+  display: inline;
+}
+
+li
+{
+  list-style-type: none;
+}
+
+h1, h2, h3, h4, h5, h6, span, a, strong
+{
+  font-size: 1em;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+button
+{
+  display: block;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+
+
